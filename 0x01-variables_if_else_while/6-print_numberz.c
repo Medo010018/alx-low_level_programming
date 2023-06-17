@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'print number of base 10 using putchar'
- * Return: always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		 putchar(n + 48);
+		putchar(n + 48);
 	}
 	putchar('\n');
 	return (0);
